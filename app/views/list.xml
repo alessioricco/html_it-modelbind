@@ -1,0 +1,11 @@
+<Alloy>
+	<Collection src="book" />
+	
+	<Window class="container" backgroundColor="white" onClose="close" onClick="exit">
+		
+		<TableView dataCollection="book" onClick="show" height="80%">
+			<TableViewRow title="{title}" alloy_id="{alloy_id}" />
+		</TableView>
+		
+	</Window>
+</Alloy>

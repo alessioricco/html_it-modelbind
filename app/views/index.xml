@@ -1,0 +1,17 @@
+<Alloy>
+	<Window class="container" layout="vertical">
+
+		<TextField id="title"  hintText="Titolo" top="40" class="text" />
+		<TextField id="author" hintText="Autore" top="10" class="text"/>
+		<TextField id="isbn"   hintText="ISBN"   top="10" class="text"/>
+		
+		<Button id="save" top="10" title="salva" class="button" onClick="save"></Button>
+		
+		<View top="10" height="Ti.UI.SIZE">
+			<Button id="prev" left="10" title="precedente" class="button" onClick="prev"></Button>
+			<Button id="next" right="10" title="successivo" class="button" onClick="next"></Button>
+		</View>
+		
+		<Button id="list" top="10" title="elenco" class="button" onClick="list"></Button>
+	</Window>
+</Alloy>
